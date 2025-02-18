@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:   0;
+    padding:  0;
+    height:   100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    height: 100vh;
+    width:  430px;
+    background-color: rgba(0,0,0,.88);
+    margin: auto;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+
+    scroll-snap-type: x mandatory;
+
+}
+
+.carousel img {
+    height: 100vh;
+    width:  430px;
+    margin: auto;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
