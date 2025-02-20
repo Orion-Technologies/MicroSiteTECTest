@@ -5,6 +5,7 @@
 html, body {
     margin:  0;
     padding: 0;
+    background-color: rgba(0,0,0,.88);
 }
 
 .container {
@@ -13,7 +14,7 @@ html, body {
     justify-content:    flex-start;
     width:              100vw;
     min-height:         100vh;
-    background-color: rgba(0,0,0,.88);
+   
     overflow:           hidden;
 }
     
