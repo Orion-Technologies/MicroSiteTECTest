@@ -37,6 +37,11 @@ html, body {
 
 .btn-descargar {
     display: inline-block;
+    height: 100vh;
+    width:  430px;
+    margin: auto;
+    flex-shrink: 0;
+    scroll-snap-align: start;
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
