@@ -28,7 +28,7 @@ html, body {
 }
 
 .container :last-child {
-    margin-bottom: 65px;
+    margin-bottom: 80px;
 }
 
 .container > * {
