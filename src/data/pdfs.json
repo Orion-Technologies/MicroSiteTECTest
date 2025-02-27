@@ -1,0 +1,14 @@
+{
+    "pdfs": [
+        {
+            "company": "cyberseg",
+            "url":     "../assets/pdf-companies/cyberseg.pdf",
+            "name":    "cyberseg.pdf"
+        },
+        {
+            "company": "esis",
+            "url":     "../assets/pdf-companies/esis.pdf",
+            "name":    "esis.pdf"
+        }
+    ]
+}

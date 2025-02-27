@@ -8,17 +8,24 @@
 </head>
 <body>
     <div class="container">
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="cyberseg">
                 <img src="../assets/companies/cyberseg.png" alt="cyberseg" title="cyberseg" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="esis">
                 <img src="../assets/companies/esis.png" alt="esis" title="esis" class="category-img">
-            </a>
+        </div>
+    </div>
+
+    <!-- Visor de PDF -->
+    <div class="pdf-viewer" style="display:none;">
+        <canvas id="visorPDF"></canvas>
+        <div class="botones">
+            <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
+            <button class="btn-cerrar" id="cerrarPDF">Cerrar</button>
         </div>
     </div>
    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+    <script src="../js/pdf.js"></script>
 </body>
 </html>
