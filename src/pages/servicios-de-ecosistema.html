@@ -10,61 +10,50 @@
 
 <body>
     <div class="container">
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="aerobots">
                 <img src="../assets/companies/aerobots.png" alt="aerobots" title="aerobots" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="bridgeforbillions">
                 <img src="../assets/companies/bridgeforbillions.png" alt="bridge for billions" title="bridge for billions" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="clarity-law">
                 <img src="../assets/companies/clarity-law.png" alt="clarity law" title="clarity law" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="concilia">
                 <img src="../assets/companies/concilia.png" alt="concilia" title="concilia" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="control">
                 <img src="../assets/companies/control.png" alt="control" title="control" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="corporate">
                 <img src="../assets/companies/corporate.png" alt="corporate" title="corporate" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="go-mobile">
                 <img src="../assets/companies/go-mobile.png" alt="go-mobile" title="go-mobile" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="ihelp">
                 <img src="../assets/companies/ihelp.png" alt="ihelp" title="ihelp" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="peers-legal">
                 <img src="../assets/companies/peers-legal.png" alt="peers legal" title="peers legal" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="recurso-externo">
                 <img src="../assets/companies/recurso-externo.png" alt="recurso externo" title="recurso externo" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="tu-chance">
                 <img src="../assets/companies/tu-chance.png" alt="tu chance" title="tu chance" class="category-img">
-            </a>
         </div>
+
+        <div class="pdf-viewer" style="display:none;">
+            <canvas id="visorPDF"></canvas>
+            <div class="botones">
+                <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
+                <button class="btn-cerrar" id="cerrarPDF">Cerrar</button>
+            </div>
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+        <script src="../js/pdf.js"></script>
     </div>
 </body>
 

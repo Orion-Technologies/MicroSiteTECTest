@@ -10,22 +10,27 @@
 
 <body>
     <div class="container">
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="inprotin">
                 <img src="../assets/companies/inprotin.png" alt="inprotin" title="inprotin" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="popoyan">
                 <img src="../assets/companies/popoyan.png" alt="popoyan" title="popoyan" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="semilla-nueva">
                 <img src="../assets/companies/semilla-nueva.png" alt="semilla nueva" title="semilla nueva" class="category-img">
-            </a>
         </div>
     </div>
+
+    <div class="pdf-viewer" style="display:none;">
+        <canvas id="visorPDF"></canvas>
+        <div class="botones">
+            <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
+            <button class="btn-cerrar" id="cerrarPDF">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+    <script src="../js/pdf.js"></script>
 </body>
 
 </html>

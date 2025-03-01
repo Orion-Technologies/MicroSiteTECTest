@@ -10,21 +10,26 @@
 
 <body>
     <div class="container">
-        <div class="contentMobile">
-            <a href="../assets/pdf-companies/ficha-orion.pdf" download="ficha-orion.pdf">
+        <div class="contentMobile" data-company="orion">
                 <img src="../assets/companies/orion.png" alt="orion" title="orion" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="bullseye">
                 <img src="../assets/companies/bullseye.png" alt="bullseye" title="bullseye" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="alster">
                 <img src="../assets/companies/alster.png" alt="alster" title="alster" class="category-img">
-            </a>
         </div>
+
+        <div class="pdf-viewer" style="display:none;">
+            <canvas id="visorPDF"></canvas>
+            <div class="botones">
+                <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
+                <button class="btn-cerrar" id="cerrarPDF">Cerrar</button>
+            </div>
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+        <script src="../js/pdf.js"></script>
     </div>
 </body>
 

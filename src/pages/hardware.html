@@ -10,17 +10,24 @@
 
 <body>
     <div class="container">
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="aerobots">
                 <img src="../assets/companies/aerobots.png" alt="aerobots" title="aerobots" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="rocket">
                 <img src="../assets/companies/rocket.png" alt="rocket" title="rocket" class="category-img">
-            </a>
         </div>
     </div>
+
+    <div class="pdf-viewer" style="display:none;">
+        <canvas id="visorPDF"></canvas>
+        <div class="botones">
+            <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
+            <button class="btn-cerrar" id="cerrarPDF">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+    <script src="../js/pdf.js"></script>
 </body>
 
 </html>

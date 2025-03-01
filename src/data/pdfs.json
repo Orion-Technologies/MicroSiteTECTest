@@ -9,6 +9,297 @@
             "company": "esis",
             "url":     "../assets/pdf-companies/esis.pdf",
             "name":    "esis.pdf"
+        },
+        {
+            "company": "io",
+            "url":     "../assets/pdf-companies/io.pdf",
+            "name":    "io.pdf"
+        },
+        {
+            "company": "molvu",
+            "url":     "../assets/pdf-companies/molvu.pdf",
+            "name":    "molvu.pdf"
+        },
+        {
+            "company": "posicionarte",
+            "url":     "../assets/pdf-companies/posicionarte.pdf",
+            "name":    "posicionarte.pdf" 
+        },
+        {
+            "company": "acate",
+            "url":     "../assets/pdf-companies/acate.pdf",
+            "name":    "acate.pdf" 
+        },
+        {
+            "company": "kemik",
+            "url":     "../assets/pdf-companies/kemik.pdf",
+            "name":    "kemik.pdf" 
+        },
+        {
+            "company": "aerobots",
+            "url":     "../assets/pdf-companies/aerobots.pdf",
+            "name":    "aerobots.pdf" 
+        },
+        {
+            "company": "foditek",
+            "url":     "../assets/pdf-companies/foditek.pdf",
+            "name":    "foditek.pdf" 
+        },
+        {
+            "company": "grs-electronicos",
+            "url":     "../assets/pdf-companies/grs-electronicos.pdf",
+            "name":    "grs-electronicos.pdf" 
+        },
+        {
+            "company": "kingo",
+            "url":     "../assets/pdf-companies/kingo.pdf",
+            "name":    "kingo.pdf" 
+        },
+        {
+            "company": "mabrex",
+            "url":     "../assets/pdf-companies/mabrex.pdf",
+            "name":    "mabrex.pdf" 
+        },
+        {
+            "company": "red",
+            "url":     "../assets/pdf-companies/red.pdf",
+            "name":    "red.pdf" 
+        },
+        {
+            "company": "startrack",
+            "url":     "../assets/pdf-companies/startrack.pdf",
+            "name":    "startrack.pdf" 
+        },
+        {
+            "company": "bowpi",
+            "url":     "../assets/pdf-companies/bowpi.pdf",
+            "name":    "bowpi.pdf" 
+        },
+        {
+            "company": "cooitza",
+            "url":     "../assets/pdf-companies/cooitza.pdf",
+            "name":    "cooitza.pdf" 
+        },
+        {
+            "company": "pagalo",
+            "url":     "../assets/pdf-companies/pagalo.pdf",
+            "name":    "pagalo.pdf" 
+        },
+        {
+            "company": "paggo",
+            "url":     "../assets/pdf-companies/paggo.pdf",
+            "name":    "paggo.pdf" 
+        },
+        {
+            "company": "precredit",
+            "url":     "../assets/pdf-companies/precredit.pdf",
+            "name":    "precredit.pdf" 
+        },
+        {
+            "company": "rocket",
+            "url":     "../assets/pdf-companies/rocket.pdf",
+            "name":    "rocket.pdf" 
+        },
+        {
+            "company": "boss",
+            "url":     "../assets/pdf-companies/boss.pdf",
+            "name":    "boss.pdf" 
+        },
+        {
+            "company": "innova",
+            "url":     "../assets/pdf-companies/innova.pdf",
+            "name":    "innova.pdf" 
+        },
+        {
+            "company": "inprotin",
+            "url":     "../assets/pdf-companies/inprotin.pdf",
+            "name":    "inprotin.pdf" 
+        },
+        {
+            "company": "popoyan",
+            "url":     "../assets/pdf-companies/popoyan.pdf",
+            "name":    "popoyan.pdf" 
+        },
+        {
+            "company": "semilla-nueva",
+            "url":     "../assets/pdf-companies/semilla-nueva.pdf",
+            "name":    "semilla-nueva.pdf" 
+        },
+        {
+            "company": "pulster-ai",
+            "url":     "../assets/pdf-companies/pulster-ai.pdf",
+            "name":    "pulster-ai.pdf" 
+        },
+        {
+            "company": "sonda",
+            "url":     "../assets/pdf-companies/sonda.pdf",
+            "name":    "sonda.pdf" 
+        },
+        {
+            "company": "ubiquo",
+            "url":     "../assets/pdf-companies/ubiquo.pdf",
+            "name":    "ubiquo.pdf" 
+        },
+        {
+            "company": "orion",
+            "url":     "../assets/pdf-companies/orion.pdf",
+            "name":    "orion.pdf" 
+        },
+        {
+            "company": "432-studio",
+            "url":     "../assets/pdf-companies/432-studio.pdf",
+            "name":    "432-studio.pdf" 
+        },
+        {
+            "company": "code",
+            "url":     "../assets/pdf-companies/code.pdf",
+            "name":    "code.pdf" 
+        },
+        {
+            "company": "cohete",
+            "url":     "../assets/pdf-companies/cohete.pdf",
+            "name":    "cohete.pdf" 
+        },
+        {
+            "company": "impact",
+            "url":     "../assets/pdf-companies/impact.pdf",
+            "name":    "impact.pdf" 
+        },
+        {
+            "company": "la-hora",
+            "url":     "../assets/pdf-companies/la-hora.pdf",
+            "name":    "la-hora.pdf" 
+        },
+        {
+            "company": "rec",
+            "url":     "../assets/pdf-companies/rec.pdf",
+            "name":    "rec.pdf" 
+        },
+        {
+            "company": "simlyk",
+            "url":     "../assets/pdf-companies/simlyk.pdf",
+            "name":    "simlyk.pdf" 
+        },
+        {
+            "company": "titonideas",
+            "url":     "../assets/pdf-companies/titonideas.pdf",
+            "name":    "titonideas.pdf" 
+        },
+        {
+            "company": "bridgeforbillions",
+            "url":     "../assets/pdf-companies/bridgeforbillions.pdf",
+            "name":    "bridgeforbillions.pdf" 
+        },
+        {
+            "company": "clarity-law",
+            "url":     "../assets/pdf-companies/clarity-law.pdf",
+            "name":    "clarity-law.pdf" 
+        },
+        {
+            "company": "concilia",
+            "url":     "../assets/pdf-companies/concilia.pdf",
+            "name":    "concilia.pdf" 
+        },
+        {
+            "company": "control",
+            "url":     "../assets/pdf-companies/control.pdf",
+            "name":    "control.pdf" 
+        },
+        {
+            "company": "corporate",
+            "url":     "../assets/pdf-companies/corporate.pdf",
+            "name":    "corporate.pdf" 
+        },
+        {
+            "company": "go-mobile",
+            "url":     "../assets/pdf-companies/go-mobile.pdf",
+            "name":    "go-mobile.pdf" 
+        },
+        {
+            "company": "ihelp",
+            "url":     "../assets/pdf-companies/ihelp.pdf",
+            "name":    "ihelp.pdf" 
+        },
+        {
+            "company": "peers-legal",
+            "url":     "../assets/pdf-companies/peers-legal.pdf",
+            "name":    "peers-legal.pdf" 
+        },
+        {
+            "company": "recurso-externo",
+            "url":     "../assets/pdf-companies/recurso-externo.pdf",
+            "name":    "recurso-externo.pdf" 
+        },
+        {
+            "company": "tu-chance",
+            "url":     "../assets/pdf-companies/tu-chance.pdf",
+            "name":    "tu-chance.pdf" 
+        },
+        {
+            "company": "geducar",
+            "url":     "../assets/pdf-companies/geducar.pdf",
+            "name":    "geducar.pdf" 
+        },
+        {
+            "company": "gensa-group",
+            "url":     "../assets/pdf-companies/gensa-group.pdf",
+            "name":    "gensa-group.pdf" 
+        },
+        {
+            "company": "noduu",
+            "url":     "../assets/pdf-companies/noduu.pdf",
+            "name":    "noduu.pdf" 
+        },
+        {
+            "company": "numed",
+            "url":     "../assets/pdf-companies/numed.pdf",
+            "name":    "numed.pdf" 
+        },
+        {
+            "company": "pergaminos",
+            "url":     "../assets/pdf-companies/pergaminos.pdf",
+            "name":    "pergaminos.pdf" 
+        },
+        {
+            "company": "pulpey",
+            "url":     "../assets/pdf-companies/pulpey.pdf",
+            "name":    "pulpey.pdf" 
+        },
+        {
+            "company": "solutions-tech",
+            "url":     "../assets/pdf-companies/solutions-tech.pdf",
+            "name":    "solutions-tech.pdf" 
+        },
+        {
+            "company": "transmit",
+            "url":     "../assets/pdf-companies/transmit.pdf",
+            "name":    "transmit.pdf" 
+        },
+        {
+            "company": "viscosity",
+            "url":     "../assets/pdf-companies/viscosity.pdf",
+            "name":    "viscosity.pdf" 
+        },
+        {
+            "company": "vitae",
+            "url":     "../assets/pdf-companies/vitae.pdf",
+            "name":    "vitae.pdf" 
+        },
+        {
+            "company": "bullseye",
+            "url":     "../assets/pdf-companies/bullseye.pdf",
+            "name":    "bullseye.pdf" 
+        },
+        {
+            "company": "alster",
+            "url":     "../assets/pdf-companies/alster.pdf",
+            "name":    "alster.pdf" 
+        },
+        {
+            "company": "gea-capital",
+            "url":     "../assets/pdf-companies/gea-capital.pdf",
+            "name":    "gea-capital.pdf" 
         }
+
     ]
 }

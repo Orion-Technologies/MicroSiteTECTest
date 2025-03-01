@@ -10,11 +10,20 @@
 
 <body>
     <div class="container">
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="gea-capital">
                 <img src="../assets/companies/gea-capital.png" alt="gea capital" title="gea capital" class="category-img">
-            </a>
         </div>
+
+        <div class="pdf-viewer" style="display:none;">
+            <canvas id="visorPDF"></canvas>
+            <div class="botones">
+                <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
+                <button class="btn-cerrar" id="cerrarPDF">Cerrar</button>
+            </div>
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+        <script src="../js/pdf.js"></script>
     </div>
 </body>
 

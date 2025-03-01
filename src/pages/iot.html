@@ -10,22 +10,27 @@
 
 <body>
     <div class="container">
-        <div class="contentMobile">
-            <a href="" download="">
-                <img src="../assets/companies/polser-ai.png" alt="polser-ai" title="polser-ai" class="category-img">
-            </a>
+        <div class="contentMobile" data-company="pulster-ai">
+                <img src="../assets/companies/pulster-ai.png" alt="pulster-ai" title="pulster-ai" class="category-img">
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="sonda">
                 <img src="../assets/companies/sonda.png" alt="sonda" title="sonda" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="ubiquo">
                 <img src="../assets/companies/ubiquo.png" alt="ubiquo" title="ubiquo" class="category-img">
-            </a>
         </div>
     </div>
+
+    <div class="pdf-viewer" style="display:none;">
+        <canvas id="visorPDF"></canvas>
+        <div class="botones">
+            <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
+            <button class="btn-cerrar" id="cerrarPDF">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+    <script src="../js/pdf.js"></script>
 </body>
 
 </html>

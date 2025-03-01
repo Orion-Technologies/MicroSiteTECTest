@@ -10,61 +10,50 @@
 
 <body>
     <div class="container">
-        <div class="contentMobile">
-            <a href="https://drive.google.com/drive/folders/1N4PBjJVLjbaEHj6DvHhF_ZogTZsHXaJW?usp=sharing" download="ficha-orion.pdf">
+        <div class="contentMobile" data-company="orion">
                 <img src="../assets/companies/orion.png" alt="orion" title="orion" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="geducar">
                 <img src="../assets/companies/geducar.png" alt="geducar" title="geducar" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
-                <img src="../assets/companies/gensagroup.png" alt="gensagroup" title="gensagroup" class="category-img">
-            </a>
+        <div class="contentMobile" data-company="gensa-group">
+                <img src="../assets/companies/gensa-group.png" alt="gensagroup" title="gensagroup" class="category-img">
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="noduu">
                 <img src="../assets/companies/noduu.png" alt="noduu" title="noduu" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="numed">
                 <img src="../assets/companies/numed.png" alt="numed" title="numed" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="pergaminos">
                 <img src="../assets/companies/pergaminos.png" alt="pergaminos" title="pergaminos" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="pulpey">
                 <img src="../assets/companies/pulpey.png" alt="pulpey" title="pulpey" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
-                <img src="../assets/companies/solutionstech.png" alt="solutionstech" title="solutionstech" class="category-img">
-            </a>
+        <div class="contentMobile" data-company="solutions-tech">
+                <img src="../assets/companies/solutions-tech.png" alt="solutions tech" title="solutions tech" class="category-img">
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="transmit">
                 <img src="../assets/companies/transmit.png" alt="transmit" title="transmit" class="category-img">
-            </a>
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
-                <img src="../assets/companies/viscocity.png" alt="viscocity" title="viscocity" class="category-img">
-            </a>
+        <div class="contentMobile" data-company="viscosity">
+                <img src="../assets/companies/viscosity.png" alt="viscosity" title="viscosity" class="category-img">
         </div>
-        <div class="contentMobile">
-            <a href="" download="">
+        <div class="contentMobile" data-company="vitae">
                 <img src="../assets/companies/vitae.png" alt="vitae" title="vitae" class="category-img">
-            </a>
         </div>
+
+        <div class="pdf-viewer" style="display:none;">
+            <canvas id="visorPDF"></canvas>
+            <div class="botones">
+                <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
+                <button class="btn-cerrar" id="cerrarPDF">Cerrar</button>
+            </div>
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+        <script src="../js/pdf.js"></script>
     </div>
 </body>
 
