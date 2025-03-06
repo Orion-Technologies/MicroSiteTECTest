@@ -23,13 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
         // Si es un móvil, insertar directamente el HTML dentro de container
         container.innerHTML = `
             <a href="./pages/categories.html">
-                <img src="/MICRO-SITE-TEC/src/assets/logo-tec/landing-1-portada.png" alt="TEC">
+                <img src="/MicroSiteTECTest/src/assets/logo-tec/landing-1-portada.png" alt="TEC">
             </a>
         `;
     } else {
         // Si es un dispositivo de escritorio, mostrar la imagen estática del QR
         container.innerHTML = `
-            <img src="/MICRO-SITE-TEC/src/assets/logo-tec/img-qr-code.jpeg" alt="Escanea este código QR para acceder desde tu celular" 
+            <img src="/MicroSiteTECTest/src/assets/logo-tec/img-qr-code.jpeg" alt="Escanea este código QR para acceder desde tu celular" 
                  style="display: block; margin: auto; cursor: pointer;">
         `;
     }
