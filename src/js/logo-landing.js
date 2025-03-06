@@ -29,7 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
         // Si es un dispositivo de escritorio, mostrar la imagen estática del QR
         container.innerHTML = `
-            <img src="./src/assets/logo-tec/img-qr-code.jpeg" style="display: block; width:200px; margin: auto;">
+            <img src="./src/assets/logo-tec/qr-code.png" style="display: block; width:800px; margin: auto;">
+           
         `;
     }
 });
