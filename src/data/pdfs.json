@@ -46,9 +46,9 @@
             "name":    "foditek.pdf" 
         },
         {
-            "company": "grs-electronicos",
-            "url":     "../assets/pdf-companies/grs-electronicos.pdf",
-            "name":    "grs-electronicos.pdf" 
+            "company": "grs-electrodomesticos",
+            "url":     "../assets/pdf-companies/grs-electrodomesticos.pdf",
+            "name":    "grs-electrodomesticos.pdf" 
         },
         {
             "company": "kingo",
@@ -221,6 +221,11 @@
             "name":    "ihelp.pdf" 
         },
         {
+            "company": "masingenieria",
+            "url":     "../assets/pdf-companies/masingenieria.pdf",
+            "name":    "masingenieria.pdf" 
+        },
+        {
             "company": "peers-legal",
             "url":     "../assets/pdf-companies/peers-legal.pdf",
             "name":    "peers-legal.pdf" 
@@ -266,9 +271,9 @@
             "name":    "pulpey.pdf" 
         },
         {
-            "company": "solutions-tech",
-            "url":     "../assets/pdf-companies/solutions-tech.pdf",
-            "name":    "solutions-tech.pdf" 
+            "company": "suntech-venture",
+            "url":     "../assets/pdf-companies/suntech-venture.pdf",
+            "name":    "suntech-venture.pdf" 
         },
         {
             "company": "transmit",
