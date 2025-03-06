@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Si es un móvil, insertar directamente el HTML dentro de container
         container.innerHTML = `
             <a href="./src/pages/categories.html">
-                <img src="./src/assets/logo-tec/landing-1-portada.png" alt="TEC">
+                <img src="../../src/assets/logo-tec/landing-1-portada.png" alt="TEC">
             </a>
         `;
     } else {
