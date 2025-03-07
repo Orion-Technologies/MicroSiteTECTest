@@ -9,6 +9,7 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    background-color: rgba(0, 0, 0, .88);
 }
 
 .container {
@@ -32,6 +33,16 @@ body {
     }
 }
 
+@media (orientation: landscape) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 90px;
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
 a {
     display: flex;
     align-items: center;
@@ -49,8 +60,8 @@ a {
 
 .category-img {
     width: 100%;
-    height: 100px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
     border-radius: 8px;
 }
 
@@ -92,6 +103,16 @@ a {
     gap: 20px; /* Espacio uniforme entre los botones */
     margin-top: 15px;
     width: 100%;
+}
+
+@media (orientation: landscape) {
+    .pdf-viewer {
+        width: 80%;
+        height: 90%;
+    }
+    #visorPDF {
+        height: calc(100% - 60px);
+    }
 }
 
 .btn-descargar,
