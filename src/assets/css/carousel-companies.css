@@ -10,47 +10,43 @@ html, body {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-
-    height: 100vh;
-    width:  430px;
+    display:            flex;
+    flex-direction:     row;
+    gap:                10px;
+    height:             100vh;
+    width:              430px;
     background-color: rgba(0,0,0,.88);
-    margin: auto;
-
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 10px;
-
-    scroll-snap-type: x mandatory;
-
+    margin:             auto;
+    overflow-x:         auto;
+    overflow-y:         hidden;
+    padding:            10px;
+    scroll-snap-type:   x mandatory;
 }
 
 .carousel img {
-    height: 100vh;
-    width:  430px;
-    margin: auto;
-    flex-shrink: 0;
+    height:            100vh;
+    width:             430px;
+    margin:            auto;
+    flex-shrink:       0;
     scroll-snap-align: start;
 }
 
 .btn-descargar {
-    display: inline-block;
-    height: 100vh;
-    width:  430px;
-    margin: auto;
-    flex-shrink: 0;
-    scroll-snap-align: start;
-    padding: 10px 20px;
+    display:            inline-block;
+    height:             100vh;
+    width:              430px;
+    margin:             auto;
+    flex-shrink:        0;
+    scroll-snap-align:  start;
+    padding:            10px 20px;
     background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color:            white;
+    text-decoration:    none;
+    border-radius:      5px;
+    font-weight:        bold;
+    transition:         background-color 0.3s;
+    cursor:             pointer;
+    box-shadow:         0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn-descargar:hover {
