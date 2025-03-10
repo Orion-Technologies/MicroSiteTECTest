@@ -9,16 +9,17 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="contentMobile" data-company="acate">
+    <main class="container">
+        <section class="contentMobile" data-company="acate">
             <img src="../assets/companies/acate.png" alt="acate" title="acate" class="category-img" />
-        </div>
-        <div class="contentMobile" data-company="kemik">
+        </section>
+        <section class="contentMobile" data-company="kemik">
             <img src="../assets/companies/kemik.png" alt="kemik" title="kemik" class="category-img" />
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- Visor de PDF -->
     <div class="pdf-viewer" style="display:none;">
+        <p id="pdf-loading" style="display: none;">Loading PDF...</p>
         <canvas id="visorPDF"></canvas>
         <div class="botones">
             <a class="btn-descargar" id="descargarPDF" download>Descargar</a>

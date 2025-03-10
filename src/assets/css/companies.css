@@ -4,27 +4,25 @@
 
 html,
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+    margin:             0;
+    padding:            0;
+    min-height:         100vh;
+    width:              100vw;
+    overflow:           auto;
     background-color: rgba(0, 0, 0, .88);
 }
 
 .container {
-    display: grid;
+    display:               grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    grid-auto-rows: 105px;
-    height: 100vh;
-    width: 100%;
-    
-    margin: auto;
-    overflow-y: auto;
-    padding: 10px;
-
-    padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
+    gap:                   10px;
+    grid-auto-rows:        105px;
+    min-height:            100vh;
+    width:                 100%;
+    margin:                auto;
+    overflow-y:            auto;
+    padding:               10px;
+    padding-inline:        env(safe-area-inset-left) env(safe-area-inset-right);
 }
 
 @media (min-width: 400px) and (max-width: 450px) {
@@ -36,33 +34,32 @@ body {
 @media (orientation: landscape) {
     .container {
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: 90px;
-        height: 100vh;
-        overflow-y: auto;
-        overflow-x: hidden;
+        grid-auto-rows:        90px;
+        min-height:            100vh;
+        max-width:             auto;
     }
 }
 
 a {
-    display: flex;
-    align-items: center;
+    display:         flex;
+    align-items:     center;
     justify-content: center;
     text-decoration: none;
-    width: 100%;
-    height: 100%;
+    width:           100%;
+    height:          100%;
 }
 
 .contentMobile {
-    height: 100%;
-    width: 100%;
-    border-radius: 8px;
+    max-height: 100%;
+    max-width:  100%;
+    /* border-radius: 8px; */
 }
 
 .category-img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 8px;
+    max-width: 100%;
+    height:    auto;
+    /* object-fit:    contain; */
+    /* border-radius: 8px; */
 }
 
 @media (max-width: 340px) {
@@ -72,42 +69,47 @@ a {
 }
 
 .pdf-viewer {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    height: 80%;
-    background: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position:        fixed;
+    top:             50%;
+    left:            50%;
+    transform:       translate(-50%, -50%);
+    width:           90%;
+    height:          80%;
+    background:    #fff;
+    box-shadow:      0 4px 8px rgba(0, 0, 0, 0.3);
+    padding:         20px;
+    z-index:         1000;
+    display:         flex;
+    flex-direction:  column;
+    align-items:     center;
     justify-content: center;
 }
 
+#pdf-loading {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:     rgba(0, 0, 0, .88);
+}
+
 #visorPDF {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #ccc;
+    width:      100%;
+    height:     100%;
+    border:     1px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .botones {
-    display: flex;
-    flex-direction: row;
+    display:         flex;
+    flex-direction:  row;
     justify-content: center;
-    align-items: center;
-    gap: 20px; /* Espacio uniforme entre los botones */
-    margin-top: 15px;
-    width: 100%;
+    align-items:     center;
+    gap:             20px; /* Espacio uniforme entre los botones */
+    margin-top:      15px;
+    width:           100%;
 }
 
 @media (orientation: landscape) {
     .pdf-viewer {
-        width: 80%;
+        width:  80%;
         height: 90%;
     }
     #visorPDF {
@@ -117,44 +119,44 @@ a {
 
 .btn-descargar,
 .btn-cerrar {
-    display: flex;
-    display: inline-flex;
+    display:         flex;
+    display:         inline-flex;
     justify-content: center;
-    align-items: center;
+    align-items:     center;
 }
 
 .btn-descargar {
-    margin-top: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:         10px;
+    font-family:        'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #e0e0e0;
-    border-radius: 50px;
-    box-shadow: inset 4px 4px 10px #7a7a7a, inset -4px -4px 10px #ffffff;
-    color: #4d4d4d;
-    text-align: center;
-    font-size: 18px;
-    padding: 10px 20px;
-    transition: all 0.2s ease-in-out;
-    border: 2px solid rgb(206, 206, 206);
-    transition: background-color 0.3s;
-    width: 125px;
-    height: 45px;
-}
+    border-radius:      50px;
+    box-shadow:         inset 4px 4px 10px #7a7a7a, inset -4px -4px 10px #ffffff;
+    color:            #4d4d4d;
+    text-align:         center;
+    font-size:          18px;
+    padding:            10px 20px;
+    transition:         all 0.2s ease-in-out;
+    border:             2px solid rgb(206, 206, 206);
+    transition:         background-color 0.3s;
+    width:              125px;
+    height:             45px;
+}        
 
 .btn-cerrar {
-    margin-top: 10px;
+    margin-top:         10px;
     background-color: #dc3545;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 50px;
-    box-shadow: inset 4px 4px 10px #7b1e28, inset -4px -4px 10px #d54e5b;
-    color: #E0E0E0;
-    text-align: center;
-    font-size: 18px;
-    padding: 10px 20px;
-    transition: all 0.2s ease-in-out;
-    border: 2px solid #dc3545;
-    transition: background-color 0.3s;
-    width: 125px;
-    height: 45px;
+    font-family:        'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:      50px;
+    box-shadow:         inset 4px 4px 10px #7b1e28, inset -4px -4px 10px #d54e5b;
+    color:            #E0E0E0;
+    text-align:         center;
+    font-size:          18px;
+    padding:            10px 20px;
+    transition:         all 0.2s ease-in-out;
+    border:             2px solid #dc3545;
+    transition:         background-color 0.3s;
+    width:              125px;
+    height:             45px;
 }
 
 /* https://uiverse.io/adamgiebl/good-mouse-67  link botones*/

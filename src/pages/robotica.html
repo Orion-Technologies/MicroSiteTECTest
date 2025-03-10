@@ -9,15 +9,17 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="contentMobile" data-company="aerobots">
+    <main class="container">
+        <section class="contentMobile" data-company="aerobots">
                 <img src="../assets/companies/aerobots.png" alt="aerobots" title="aerobots" class="category-img">
-        </div>
-        <div class="contentMobile" data-company="titonideas">
+        </section>
+        <section class="contentMobile" data-company="titonideas">
                 <img src="../assets/companies/titonideas.png" alt="titonideas" title="titonideas" class="category-img">
-        </div>
+        </section>
+    </main>
          <!-- Visor de PDF -->
         <div class="pdf-viewer" style="display:none;">
+            <p id="pdf-loading" style="display: none;">Loading PDF...</p>
             <canvas id="visorPDF"></canvas>
             <div class="botones">
                 <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
@@ -27,7 +29,7 @@
     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
         <script src="../js/pdf.js"></script>
-    </div>
+    
 </body>
 
 </html>

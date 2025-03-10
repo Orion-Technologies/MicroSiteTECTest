@@ -9,20 +9,21 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="contentMobile" data-company="io">
+    <main class="container">
+        <section class="contentMobile" data-company="io">
             <img src="../assets/companies/io.png" alt="io" title="io" class="category-img" />
-        </div>
-        <div class="contentMobile" data-company="molvu">
+        </section>
+        <section class="contentMobile" data-company="molvu">
             <img src="../assets/companies/molvu.png" alt="molvu" title="molvu" class="category-img" />
-        </div>
-        <div class="contentMobile" data-company="posicionarte">
+        </section>
+        <section class="contentMobile" data-company="posicionarte">
             <img src="../assets/companies/posicionarte.png" alt="posicionarte" title="posicionarte"
                 class="category-img" />
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- Visor de PDF -->
     <div class="pdf-viewer" style="display:none;">
+        <p id="pdf-loading" style="display: none;">Loading PDF...</p>
         <canvas id="visorPDF"></canvas>
         <div class="botones">
             <a class="btn-descargar" id="descargarPDF" download>Descargar</a>
