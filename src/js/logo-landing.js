@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
         // Si es un móvil, insertar directamente el HTML dentro de container
         container.innerHTML = `
             <a href="./src/pages/categories.html">
-                <img src="./src/assets/logo-tec/logo-blanco-tec.png" alt="TEC">
-                <img src="./src/assets/logo-tec/tap.svg">
+                <img id="logo-mobile" src="./src/assets/logo-tec/logo-blanco-tec.png" alt="TEC">
+                <img id="logo-mobile" src="./src/assets/logo-tec/tap.svg">
             </a>
         `;
     } else {
         // Si es un dispositivo de escritorio, mostrar la imagen estática del QR
         container.innerHTML = `
-            <img src="./src/assets/logo-tec/qr-code.png" style="display: block; width:500px; margin: auto;">
+            <img id="logo-desktop" src="./src/assets/logo-tec/tec-qr.png" style="display: block; margin: auto;">
            
         `;
     }
